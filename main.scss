@@ -1,0 +1,13 @@
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: inherit;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+}
+.btn-1 {
+  @extend .btn;
+  border: 1px solid red;
+  color: red;
+  font-weight: bold;
+}
